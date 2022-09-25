@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio1"
+    android:orientation="vertical"
+    android:background="@drawable/f17"
+    >
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el capital "
+        android:textSize="18sp"
+        android:textColor="#ECC70D"
+        />
+
+    <EditText
+        android:id="@+id/etCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:hint="$"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la tasa de interes"
+        android:textSize="18sp"
+        android:textColor="#ECC70D"
+        />
+
+    <EditText
+        android:id="@+id/etInteres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:hint="%"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la cantidad de años"
+        android:textSize="18sp"
+        android:textColor="#ECC70D"
+        />
+
+    <EditText
+        android:id="@+id/etAños"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:onClick="calcular"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item   android:id="@+id/menu_principal"
+        android:title=""
+        android:icon="@drawable/casa"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+
+    <item   android:id="@+id/menu_v1"
+        android:title="Ejercicio 1"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item   android:id="@+id/menu_v2"
+        android:title="Ejercicio 2"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+
+    <item   android:id="@+id/menu_v3"
+        android:title="Acerca De"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+
+    <item   android:id="@+id/menu_salir"
+        android:title="Salir"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        />
+
+
+</menu>

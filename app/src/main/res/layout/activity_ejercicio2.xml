@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio2"
+    android:orientation="vertical"
+    android:background="@drawable/f3"
+    >
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volumen de un cilindro"
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese la altura del cilindro"
+        android:textSize="18sp"
+        android:textColor="#ECC70D"
+        />
+
+    <EditText
+        android:id="@+id/etAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el radio del cilindro"
+        android:textSize="18sp"
+        android:textColor="#ECC70D"
+        />
+
+    <EditText
+        android:id="@+id/etRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Volumen"
+        android:onClick="calcular"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="Resultado"
+        android:background="@color/teal_700"
+        android:textSize="40sp"
+        android:textColorHint="#ECC70D"
+        android:textColor="#ECC70D"
+        />
+
+
+
+
+
+</LinearLayout>

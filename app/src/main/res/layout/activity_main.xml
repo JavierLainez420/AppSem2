@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f18"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnEjercicio1"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="ejercicio1"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/btnEjercicio2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="ejercicio2"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/btnAcercade"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="acercade"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="salir"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:onClick="salir"
+        android:backgroundTint="@color/teal_200"
+        />
+
+</LinearLayout>
